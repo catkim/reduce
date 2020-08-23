@@ -1,5 +1,5 @@
-const shortWords = ['cat', 'hat', 'hi', 'red', 'by', 'pop'];
-const msgs = ["is a short word ", "let's go", "around the "]
+const shortWords = ['cat', 'hat', 'hi', 'red', 'by', 'pop', 'I', 'supercalifragilisticexpialidocious'];
+const msgs = ["is a short word ", "let's go", "around the ", "git is weird"]
 
 let getSupershortWords = shortWords.filter(function(item){
   if(item.length <= 2){
